@@ -1,0 +1,9 @@
+CREATE TABLE Users(
+	userid SERIAL PRIMARY KEY,
+	email VARCHAR(100) NOT NULL,
+	password VARCHAR(100) NOT NULL,
+	creationdate TIMESTAMP NOT NULL,
+	alterdate TIMESTAMP NOT NULL,
+	CONSTRAINT email_unique UNIQUE(email)
+)
+
