@@ -1,5 +1,20 @@
 # JWT Authentication (NodeJS, Express, PostgreSQL)
 
+### Folder Structure
+
+    src
+    ├── api                   # Api
+    │   ├── controllers          # Express route controllers for  [Controller Layer]
+    │   ├── routes               # Express routes 
+    │   ├── middlewares          # Express middlewares
+    │   ├── utils                # Helper functions
+    │   └── routers.js           # All business Routes
+    ├── data                  # Database workers/services [Service and Data Access Layer]
+    ├── db                    # Database configuration and scripts
+    ├── app.js                # Server and App entry point
+    └── README.md
+
+
 ### Installing
 
 Run docker container with PostgreSQL, replace <YOURPASSWORD> with the password you want and update .env file accordingly
@@ -36,21 +51,6 @@ Start application
 npm install
 npm run start
 ```
-
-### Folder Structure
-
-    src
-    ├── api                   # Api
-    │   ├── controllers          # Express route controllers for  [Controller Layer]
-    │   ├── routes               # Express routes 
-    │   ├── middlewares          # Express middlewares
-    │   ├── utils                # Helper functions
-    │   └── routers.js           # All business Routes
-    ├── data                  # Database workers/services [Service and Data Access Layer]
-    ├── db                    # Database configuration and scripts
-    ├── app.js                # Server and App entry point
-    └── README.md
-
 
 ## Authors
 * **João André Coelho** - *JWT Authentication (NodeJS, Express, PostgreSQL)* - [joaomcoelho](https://github.com/joaomcoelho)
