@@ -23,7 +23,7 @@ app.use(errorHandler);
 
 function errorHandler(err, req, res, next) {
   console.log("Error: ", err);
-  res.status(500).json({ message: "An unexpected error has occurred", err });
+  res.status(500).json({ message: "An unexpected error has occurred" });
 }
 
 app.listen(PORT, () =>
