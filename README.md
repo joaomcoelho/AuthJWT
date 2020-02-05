@@ -4,11 +4,11 @@
 
     src
     ├── api                   # Api
-    │   ├── controllers          # Express route controllers for  [Controller Layer]
+    │   ├── controllers          # Express route controllers [Controller Layer]
     │   ├── routes               # Express routes 
     │   ├── middlewares          # Express middlewares
     │   ├── utils                # Helper functions
-    │   └── routers.js           # All business Routes
+    │   └── routers.js           # Routers
     ├── data                  # Database workers/services [Service and Data Access Layer]
     ├── db                    # Database configuration and scripts
     ├── app.js                # Server and App entry point
